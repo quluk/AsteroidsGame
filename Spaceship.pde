@@ -26,5 +26,13 @@ public void hyperspace(){
   myCenterX=(int)(Math.random()*500);
   myCenterY=(int)(Math.random()*500);
 }
-
+    public double getMyCenterX(){
+      return myCenterX;
+    }
+    
+    public double getMyCenterY(){
+      return myCenterY;
+    }
 }
+
+
